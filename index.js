@@ -122,5 +122,7 @@ client.on("messageCreate", async (msg) => {
 });
 
 // ใส่ TOKEN ของบอทตรงนี้
-client.login("MTQ0Mjk3NDYwMjQ1MTIyMjc4Mg.GXJzq-.ltDr3hxmauCKGVZY62Y4g-QLsy9dC6PgtYARM0");
+client.login(process.env.DISCORD_TOKEN);
+
+
 
