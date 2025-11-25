@@ -1,9 +1,10 @@
 {
-  "name": "adobe-ghostbot",
+  "name": "adobe-bot",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "fs": "^0.0.1-security"
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2"
   }
 }
