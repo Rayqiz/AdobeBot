@@ -1,9 +1,14 @@
 {
-  "name": "adobe-ghostbot",
+  "name": "adobebot",
   "version": "1.0.0",
+  "description": "Adobe Check-in/Check-out Bot",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "fs": "^0.0.1-security"
+    "discord.js": "^14.15.0",
+    "fs-extra": "^11.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
